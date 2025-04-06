@@ -1,15 +1,6 @@
-# HEALTHCARE SYSTEM ft. TEAM ICECREAM
-
-### Team Members and Contributors- 
-#### ANUBHAV RAJAK         @Anubhavrajak
-#### ARUNIM BASAK          @Arunim10
-#### SASWATI SHUBHALAXMI   @Sash002
-#### VIKKY ANAND           @vikkyanand
-#### SAYAN BISWAS          @sayanbiswas023
-
-![alt text](https://i.pinimg.com/564x/c2/48/eb/c248eb292cb85b991512c02574723453.jpg)
 
 ## THIS PROJECT INCLUDES: 
+
 Improving Healthcare Access and Outcomes by integrating the applications of AI for
 1. Primary care
 2. Early detection of diseases
@@ -18,6 +9,7 @@ Improving Healthcare Access and Outcomes by integrating the applications of AI f
 5. Emotional support
 
 ## FEATURES:
+
 Multiple Diseases Prediction:
 Prediction of the plausible disease of the person by taking inputs of various symptoms via a GUI.
 
@@ -39,6 +31,7 @@ Dataset : Melanoma    |   Ocular Diseases
 
 ## MODEL DESCRIPTION
 ### Multiple Diseases Prediction:
+
 We shall be using the dataset which consists of 41 classes of different diseases.
 After cleaning the data for this model , we shall put in action various symptoms, which the users are suffering , as features for the model training. 
 To train the model we will use Stacked Ensembling to get a joint venture prediction of the Decision Tree model, the Naive Bayes model, the RandomForest model and the Xgboost model. Using ensembling , we expect to get a very good accuracy of about 98 percent. 
@@ -56,6 +49,7 @@ The proposition is to use EfficientNet or MobileNet to enable decent efficiency 
 The version 1 of the MVP uses Efficientnet B6 to detect malignancy of a skin lesion. The team is currently working on detection of stages of ocular diseases
 
 ### The GUI:
+
 Efforts have been made to make the user interface understandable and easy to use, so as to reach the masses. 
 Tkinter has been used to produce the entire interface. 
 PROCESS OUTFLOW: 
@@ -64,6 +58,7 @@ The four models(Decision Tree, Naive Bayes, RandomForest and XgBoost) having bee
 The user would also get an option for getting mental health support on the same application; which is a chatbot named Me4U.  
 
 ## TECH STACK USAGE
+
 1. Disease Predictor: Tensorflow, Scikit-Learn, Numpy, Pandas
 2. Chatbot:Tensorflow, Numpy, Pandas, NLP, NLTK, Tkinter(For the GUI)
 3. Early Disease Recogniser:Pytorch, Opencv-Python ,Matplotlib ,Pillow, Numpy
