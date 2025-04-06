@@ -1,3 +1,4 @@
+# Health_Care
 
 ## THIS PROJECT INCLUDES: 
 
@@ -66,14 +67,11 @@ The user would also get an option for getting mental health support on the same 
 
 ## INSPIRATION BEHIND THE PROJECT
 1. The healthcare domain is not only one of the prominent research fields in the current scenario with the rapid improvement of technology and data but also a pressing issue for a country as demographically as large as India. While dealing with such a large amount of data is challenging, it is eased by Big Data Analytics. This work aims in automating the prediction, diagnosis and prognosis of medical conditions while making the technology available to the masses.
-2. In a country with 1 doctor available per 750 people, being able to diagnose some fatal diseases even by our own, is likely to smoothen the medical procedures. 
-Most of the patients die from negligence as they hesitate to visit a doctor even for the detection of a disease! Early and fast diagnosis of a plausible disease is important. This is where our AI Models and bot would come to rescue. We solely believe the ease of access and usage of this product, can prove to be of service. 
-3. Mental health is the proverbial elephant in the room that no one wants to address. Corona is to blame for this massive spike in the number of cases. Chatbots are Natural Language Processing(NLP) based frameworks that interact with human . Built specifically to communicate with people struggling with mental problems.
 
 ## Instructions:
 ### 1. Clone
 ### 2. You'll need model weights...so....
-![alt text](https://media.makeameme.org/created/gimme-money-or-6f5ba165c2.jpg)
+
 
 Put the weights.h5 file in the 'skin_cancer' folder
 ### 3. Stay at root and run 
@@ -81,4 +79,4 @@ Put the weights.h5 file in the 'skin_cancer' folder
 	$ pip install -r requirements.txt
 ```
 ### 4. Run main.py
-# Health_Care
+
